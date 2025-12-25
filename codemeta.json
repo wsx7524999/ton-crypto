@@ -1,0 +1,165 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "@ton/crypto",
+  "description": "Cross-platform crypto primitives for building apps for TON blockchain. Uses native crypto available in NodeJS or in browser.",
+  "version": "3.3.0",
+  "identifier": "https://github.com/wsx7524999/ton-crypto",
+  "codeRepository": "https://github.com/wsx7524999/ton-crypto.git",
+  "license": "https://spdx.org/licenses/MIT",
+  "dateCreated": "2021-01-01",
+  "dateModified": "2025-12-25",
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "@type": "ComputerLanguage",
+      "name": "JavaScript",
+      "url": "https://www.javascript.com/"
+    }
+  ],
+  "runtimePlatform": [
+    "Node.js",
+    "Browser",
+    "React Native"
+  ],
+  "operatingSystem": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "iOS",
+    "Android"
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "name": "Whales Corp.",
+      "email": "developers@whalescorp.com"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Andrei",
+      "familyName": "Kostylev",
+      "email": "a.kostylev@pm.me"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Organization",
+      "name": "Whales Corp.",
+      "email": "developers@whalescorp.com"
+    }
+  ],
+  "keywords": [
+    "ton",
+    "blockchain",
+    "crypto",
+    "cryptography",
+    "mnemonics",
+    "ed25519",
+    "nacl",
+    "sha256",
+    "sha512",
+    "hmac",
+    "pbkdf2",
+    "bip39",
+    "slip10",
+    "slip21",
+    "hd-keys",
+    "hierarchical-deterministic",
+    "signing",
+    "encryption",
+    "secure-random",
+    "typescript"
+  ],
+  "applicationCategory": "Library",
+  "developmentStatus": "active",
+  "softwareVersion": "3.3.0",
+  "funder": {
+    "@type": "Organization",
+    "name": "Whales Corp."
+  },
+  "issueTracker": "https://github.com/wsx7524999/ton-crypto/issues",
+  "downloadUrl": "https://www.npmjs.com/package/@ton/crypto",
+  "releaseNotes": "https://github.com/wsx7524999/ton-crypto/releases",
+  "readme": "https://github.com/wsx7524999/ton-crypto/blob/main/README.md",
+  "softwareRequirements": [
+    "Node.js >= 14.0.0",
+    "TypeScript >= 4.4.2"
+  ],
+  "buildInstructions": "https://github.com/wsx7524999/ton-crypto#install",
+  "continuousIntegration": {
+    "@type": "Service",
+    "name": "GitHub Actions"
+  },
+  "referencePublication": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "TON Blockchain Documentation",
+      "url": "https://ton.org/docs"
+    }
+  ],
+  "targetProduct": {
+    "@type": "SoftwareApplication",
+    "name": "TON Blockchain Applications",
+    "operatingSystem": [
+      "Cross-platform"
+    ]
+  },
+  "hasPart": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "SHA-256",
+      "description": "SHA-256 hashing implementation"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "SHA-512",
+      "description": "SHA-512 hashing implementation"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "HMAC-SHA-512",
+      "description": "HMAC-SHA-512 implementation"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "PBKDF2-SHA-512",
+      "description": "PBKDF2-SHA-512 key derivation"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "TON Mnemonics",
+      "description": "BIP-39 styled mnemonics with custom key derivation"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "NaCL Signing",
+      "description": "Ed25519 signing and verification"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "NaCL Encryption",
+      "description": "Symmetric encryption using sealBox/openBox"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "SLIP-10 Ed25519",
+      "description": "Hierarchical deterministic keys for Ed25519"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "SLIP-21",
+      "description": "Symmetric hierarchical deterministic keys"
+    }
+  ],
+  "funding": {
+    "@type": "MonetaryGrant",
+    "name": "Whales Corp. Development Fund"
+  }
+}
