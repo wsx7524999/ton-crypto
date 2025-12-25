@@ -168,6 +168,10 @@ const derivedKey: Buffer = await deriveSymmetricPath(seed, ['ton-seed', 'some-ke
 
 ```
 
+# Metadata
+
+For comprehensive metadata about this project, see [`codemeta.json`](./codemeta.json) which follows the [CodeMeta standard](https://codemeta.github.io/).
+
 # License
 
 MIT
